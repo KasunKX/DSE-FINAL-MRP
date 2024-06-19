@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f4f6;
+  width: 100vw;
+  height: 100vh;
+}
+body nav {
+  width: 100%;
+  height: 9vh;
+  background: #131463;
+  box-sizing: border-box;
+}
+body .content {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+body .content .sidebar {
+  width: 25%;
+  height: 91vh;
+  background: #505188;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .content .sidebar .tabContainer {
+  width: 100%;
+}
+body .content .sidebar .tabContainer .sidebarItem {
+  width: 100%;
+  height: 7vh;
+  padding-left: 5%;
+  margin-top: 1px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: #1f3d65;
+  cursor: pointer;
+}
+body .content .sidebar .tabContainer .sidebarItem h2 {
+  font-weight: 400;
+  font-size: 1vw;
+  color: rgb(175, 175, 175);
+}
+body .content .sidebar .tabContainer .sidebarItem:hover {
+  background: rgb(12, 12, 68);
+}
+body .content .sidebar .tabContainer .logout {
+  width: 60%;
+  height: 5vh;
+  position: relative;
+  left: 20%;
+}
+body .content .sidebar .tabContainer .active {
+  background: rgb(7, 7, 43);
+}
+body .content .sidebar .userDetails {
+  height: 8vh;
+  display: grid;
+  place-items: center;
+  color: rgb(218, 218, 218);
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+body .content .sidebar .userDetails h3 {
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+body .content .sidebar .userDetails h4 {
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+button {
+  cursor: pointer;
+}
+
+.orderForm {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 44%;
+  top: 20%;
+  background: #948ec1;
+  padding: 1%;
+}
+.orderForm .title {
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.25vw;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.orderForm .inputs .input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.orderForm .inputs .input .name {
+  font-weight: 400;
+  font-size: 1.25vw;
+}
+.orderForm .inputs .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.report {
+  width: 595px;
+  height: 842px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: "Arial, sans-serif";
+  position: absolute;
+  z-index: -1;
+  left: -1000%;
+  color: #333;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+.report h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+.report .reportHead {
+  margin-bottom: 40px;
+  width: 593px;
+}
+.report table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.report table th, .report table td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: left;
+  font-size: 10px;
+}
+.report table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.report table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.report table tr:hover {
+  background-color: #f1f1f1;
+}/*# sourceMappingURL=main.css.map */

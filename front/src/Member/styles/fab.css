@@ -1,0 +1,20 @@
+.actions {
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+}
+.actions button {
+  height: 70%;
+  background: #97bb41;
+  border: none;
+  outline: none;
+  width: 90%;
+  font-weight: 500;
+  color: rgb(67, 62, 62);
+  border: 1px solid #97bb41;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.actions button:hover {
+  background: #bde65d;
+}/*# sourceMappingURL=fab.css.map */

@@ -1,0 +1,100 @@
+.inventNav {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+.inventNav button {
+  width: 10%;
+}
+
+.inventoryContainer {
+  margin-top: 2vh;
+  background-color: rgb(215, 216, 224);
+  height: 80vh;
+  padding: 1%;
+  padding-right: 5px;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+.inventoryContainer .topButtons {
+  justify-content: end !important;
+}
+.inventoryContainer .topButtons button {
+  height: 70% !important;
+  z-index: 100;
+}
+.inventoryContainer .topButtons .newItem {
+  position: absolute;
+  width: 50px !important;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  border: none;
+  outline: none;
+  font-size: 2vw;
+  left: 95%;
+  top: 90%;
+  height: 50px !important;
+  display: grid;
+  place-items: center;
+}
+.inventoryContainer .itemContainer {
+  width: 100%;
+  display: grid;
+  height: 93%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.inventoryContainer .itemContainer .item {
+  width: 100%;
+  height: 70%;
+  grid-gap: 30px;
+  background: white;
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.inventoryContainer .itemContainer .item img {
+  width: 98%;
+  max-height: 60%;
+  z-index: 100;
+  margin-bottom: 5%;
+}
+.inventoryContainer .itemContainer .item .values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  height: 25%;
+  grid-gap: 20px;
+}
+.inventoryContainer .itemContainer .item .values .dataVal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 rgb(161, 165, 202);
+  border-radius: 10px;
+}
+.inventoryContainer .itemContainer .item .values .dataVal h4 {
+  font-size: 0.9vw;
+}
+
+.report {
+  background: #000;
+}
+
+.products {
+  overflow-y: scroll;
+}
+.products .itemContainer {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.products .itemContainer .item {
+  height: 98%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 10px 0 rgb(161, 161, 161);
+}
+.products .itemContainer .item img {
+  max-height: 65%;
+}/*# sourceMappingURL=inventory.css.map */
